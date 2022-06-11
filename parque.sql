@@ -7,4 +7,12 @@ CREATE TABLE cliente(
   apellido_materno VARCHAR2(250) NULL, 
   direccion VARCHAR2(250) NOT NULL 
    correo VARCHAR2(250)NOT NULL
+
+);
+
+CREATE TABLE comuna(  
+  id_comuna NUMBER NOT NULL,
+  nombre VARCHAR2(250) NOT NULL,
+  id_provincia NUMBER NOT NULL, 
+  
 );
